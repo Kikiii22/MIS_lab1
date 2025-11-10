@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mis_lab1/screens/details.dart';
-
 import 'models/exam.dart';
 import 'screens/list.dart';
 

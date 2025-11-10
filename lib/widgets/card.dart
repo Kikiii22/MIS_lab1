@@ -32,7 +32,7 @@ class ExamCard extends StatelessWidget {
         ),
         color: backgroundColor,
         elevation: 4,
-        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 18),
           child: Column(

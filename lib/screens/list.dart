@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/exam.dart';
 import '../widgets/card.dart';
-import 'details.dart';
 
 class ExamList extends StatelessWidget {
   final String index;
@@ -17,10 +16,9 @@ class ExamList extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Распоред за испити-$index',style:  const TextStyle(color: Colors.white),),
+        title: Text('Распоред за испити-$index',style: const TextStyle(color: Colors.white),),
         centerTitle: true,
         backgroundColor: Colors.pink.shade100,
-
       ),
       body: Stack(
         children: [
@@ -60,7 +58,7 @@ class ExamList extends StatelessWidget {
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
